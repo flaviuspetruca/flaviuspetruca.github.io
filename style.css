@@ -1,0 +1,430 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    margin-bottom: 50px;
+}
+
+.row{
+    margin: 40px 0px;
+}
+
+.log{
+    background-color: #263238;
+    color: #92E3A9;
+    border: 0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+#myLinks{
+    float: right;
+}
+
+.btn-light{
+    background-color: white;
+    margin: 10px;
+    border: 0;
+}
+
+.hamMenu{
+    display: none;
+}
+
+.log:hover{
+    color:#FFF;
+}
+
+.log:active, .log:focus{
+    color:#FFF;
+    background-color: #526a79;
+}
+
+.links{
+    display: flex;
+}
+
+.CT{
+    padding: 14vh 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagineCT svg{
+    display: block;
+    margin: auto;
+    width: 480px; 
+    height: 500px;
+}
+
+.col-lg-6 h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 121.1%;
+    color: #263238;
+    margin-bottom: 30px ;
+}
+
+.col-lg-6 h6{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263238;
+    margin-bottom: 30px;
+
+}
+
+.col-lg-4 h6{
+    width: 50%;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263238;
+    margin-bottom: 70px;
+}
+
+.CF h1{
+    font-weight: 900; 
+    font-size: 40px;
+}
+
+.cumpar{
+    background-color: #263238;
+    color: #92E3A9;
+    border: 0;
+    width: auto;
+    height: auto;
+    float: none;
+    margin: 10px 10px 10px 0px;
+}
+
+.cumpar:hover{
+    color:#FFF;
+}
+
+.cumpar:active, .cumpar:focus{
+    color:#FFF;
+    background-color: #526a79;
+}
+
+.vand{
+    height: auto;
+    width: auto;
+    background-color: #92E3A9;
+    color: #263238;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+
+.vand:hover{
+    background-color: rgb(118, 170, 132);
+    color: #263238;
+}
+
+.vand:active, .vand:focus{
+    color:rgb(230, 230, 230);
+    background-color: #5f7e68;
+}
+
+.incarca{
+    background-color: #263238;
+    color: #92E3A9;
+    border: 0;
+    width: 250px;
+    height: auto;
+    float: none;
+    margin: 10px;
+}
+
+.incarca:hover{
+    color:#FFF;
+}
+
+.incarca:active, .cumpar:focus{
+    color:#FFF;
+    background-color: #526a79;
+}
+
+.categorii h6{
+    width: 70%;
+}
+
+.card{
+    box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+    border-radius: 5px;
+    margin: 80px 150px;
+}
+
+.email{
+    padding: 0px 50px;
+}
+
+.email h2{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 121.1%;
+    margin-bottom: 40px;
+}
+.email h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 121.1%;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.email h6{
+    margin-bottom: 5px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form-control{
+    border: 1px solid #263238;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 30px;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 15px;
+}
+
+footer .row{
+    justify-content: center;
+    align-content: center;
+}
+
+footer .row svg{
+    margin: 0px 5px;
+}
+
+.social:hover svg path{
+    fill: #526a79;
+}
+
+.modal-content{
+    border: 0px;
+}
+
+.modal-header{
+    background-color: #92E3A9;
+    height: 50px;
+}
+
+.modal-title{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.lista li{
+    margin: 30px;
+}
+
+.lista h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #263238;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.lista h6{
+    color: #92E3A9;
+    font-size: 15px;
+    margin: 0;
+}
+
+datalist{
+    background-color: #92E3A9;
+}
+
+option{
+    width: 50px;
+}
+
+.overlay{
+    opacity:1;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    position: relative;           
+    animation: loader 1s infinite ease-in-out;
+}
+
+@keyframes loader{
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+@media screen and (min-width: 991px)
+{
+    .links{
+        flex-direction: row;
+        display: flex;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+
+    .links{
+        display: none;
+    }
+
+    .open{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        outline: 10px;
+    }
+
+    .hamMenu{
+        display: inline;
+        float: right;
+    }
+
+    .svg{
+        width: 70%;
+    }
+
+    .CT{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .row{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .card{
+        margin: 80px 30px;
+    }
+
+    .vand{
+        width: 70%;
+    }
+
+    .cumpar{
+        width: 70%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 520px)
+{
+    .modal-dialog {
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .modal-content {
+        height: auto;
+        min-height: 100vh;
+        min-width: 100%;
+        border-radius: 0;
+        overflow-y: auto;
+    }
+
+    .modal-body{
+        max-height: 250px;
+    }
+
+    .CT{
+        padding: 14vh 10px;
+    }
+    .imagineCT svg{
+        width: 85%;
+        height: 90%;
+    }
+
+    .card{
+        margin: 80px 10px;
+    }
+
+    .logo{
+        width: 130px;
+    }
+
+    .vand{
+        width: 100%;
+    }
+
+    .cumpar{
+        width: 100%;
+    }
+
+    .email h2{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .email h5{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 340px)
+{
+    .modal-title{
+        font-size: 13px;
+    }
+    .CT h1{
+        font-size: 25px;
+    }
+
+    .CF h1{
+        font-size: 20px;
+    }
+}
